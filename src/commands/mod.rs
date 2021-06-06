@@ -19,10 +19,8 @@ pub fn search() {
     }
     let mut table = Table::new();
     table
-        .set_table_width(1000)
         .set_header(vec!["", "봇"])
         .add_row(vec!["이름", &bot.data.name])
-        .add_row(vec!["설명", &bot.data.intro])
         .add_row(vec!["플래그", &bot.data.flags.to_string()])
         .add_row(vec!["태그", &bot.data.tag])
         .add_row(vec!["라이브러리", &bot.data.lib])
