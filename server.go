@@ -1,1 +1,1 @@
-package klistcli
+package main
